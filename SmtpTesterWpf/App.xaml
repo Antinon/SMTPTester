@@ -1,0 +1,26 @@
+﻿<Application x:Class="SmtpTesterWpf.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!-- Choose MD3 (new look) OR MD2 (classic look) -->
+                <!-- MD3 -->
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesign3.Defaults.xaml" />
+                <!-- MD2 (classic) -->
+                <!-- <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesign2.Defaults.xaml" /> -->
+
+                <!-- Simple color theme -->
+                <materialDesign:BundledTheme BaseTheme="Light"
+                                     PrimaryColor="Indigo"
+                                     SecondaryColor="Lime" />
+
+                <!-- Temporary shims if you have old keys (optional, remove later) -->
+                <!-- <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.ObsoleteBrushes.xaml" /> -->
+                <!-- <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.ObsoleteStyles.xaml" /> -->
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

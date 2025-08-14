@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "dgSpecHash": "xW9qbuUJpYo=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Antinon\\source\\repos\\SmtpTesterWpf\\SmtpTesterWpf\\SmtpTesterWpf.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Antinon\\.nuget\\packages\\bouncycastle.cryptography\\2.5.1\\bouncycastle.cryptography.2.5.1.nupkg.sha512",
+    "C:\\Users\\Antinon\\.nuget\\packages\\mailkit\\4.13.0\\mailkit.4.13.0.nupkg.sha512",
+    "C:\\Users\\Antinon\\.nuget\\packages\\materialdesigncolors\\5.2.0\\materialdesigncolors.5.2.0.nupkg.sha512",
+    "C:\\Users\\Antinon\\.nuget\\packages\\materialdesignthemes\\5.1.0\\materialdesignthemes.5.1.0.nupkg.sha512",
+    "C:\\Users\\Antinon\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+    "C:\\Users\\Antinon\\.nuget\\packages\\mimekit\\4.13.0\\mimekit.4.13.0.nupkg.sha512",
+    "C:\\Users\\Antinon\\.nuget\\packages\\system.formats.asn1\\8.0.1\\system.formats.asn1.8.0.1.nupkg.sha512",
+    "C:\\Users\\Antinon\\.nuget\\packages\\system.security.cryptography.pkcs\\8.0.1\\system.security.cryptography.pkcs.8.0.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "message": "SmtpTesterWpf depends on MaterialDesignColors (>= 5.1.0) but MaterialDesignColors 5.1.0 was not found. MaterialDesignColors 5.2.0 was resolved instead.",
+      "projectPath": "C:\\Users\\Antinon\\source\\repos\\SmtpTesterWpf\\SmtpTesterWpf\\SmtpTesterWpf.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Antinon\\source\\repos\\SmtpTesterWpf\\SmtpTesterWpf\\SmtpTesterWpf.csproj",
+      "libraryId": "MaterialDesignColors",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    }
+  ]
+}

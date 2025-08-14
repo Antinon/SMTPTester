@@ -1,0 +1,27 @@
+Connected to smtp://antinon-se.mail.protection.outlook.com:25/?starttls=always
+S: 220 GVX0EPF00000181.mail.protection.outlook.com Microsoft ESMTP MAIL Service ready at Thu, 14 Aug 2025 20:46:08 +0000 [08DDD71C1C2DCEC7]
+C: EHLO Gaming
+S: 250-GVX0EPF00000181.mail.protection.outlook.com Hello [83.172.122.181]
+S: 250-SIZE 157286400
+S: 250-PIPELINING
+S: 250-DSN
+S: 250-ENHANCEDSTATUSCODES
+S: 250-STARTTLS
+S: 250-8BITMIME
+S: 250-BINARYMIME
+S: 250-CHUNKING
+S: 250 SMTPUTF8
+C: STARTTLS
+S: 220 2.0.0 SMTP server ready
+C: EHLO Gaming
+S: 250-GVX0EPF00000181.mail.protection.outlook.com Hello [83.172.122.181]
+S: 250-SIZE 157286400
+S: 250-PIPELINING
+S: 250-DSN
+S: 250-ENHANCEDSTATUSCODES
+S: 250-8BITMIME
+S: 250-BINARYMIME
+S: 250-CHUNKING
+S: 250 SMTPUTF8
+C: QUIT
+S: 221 2.0.0 Service closing transmission channel
